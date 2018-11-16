@@ -8,8 +8,8 @@ php :
 #Branch yang digunakan
 branches :
   only:
-      -master #-> QA/Staging server
-      -develop #-> DevServer
+      - master #-> QA/Staging server
+      - develop #-> DevServer
 
 #install Environment
 before_install : 
